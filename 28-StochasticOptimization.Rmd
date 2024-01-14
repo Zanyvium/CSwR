@@ -9,7 +9,7 @@ the accuracy of the model and the time it takes to compute with it.
 
 The optimization algorithms considered in Chapters \@ref(numopt) and \@ref(em)
 work on all available data and take deterministic steps in each iteration. 
-The models are based on accurate local computations of derivatives that can be 
+The models are based on accurate local computations of derivatives that can 
 greedily exploit the local model obtained from derivatives, but they do 
 little exploration.
 
