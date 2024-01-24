@@ -643,7 +643,7 @@ optim(c(0.9, 3, 1), loglik, y = y)[c(1, 2)]
 ```
 
 We will implement the EM algorithm for the Gaussian mixture model by 
-implementing and E-step and an M-step function. We know from Section 
+implementing an E-step and an M-step function. We know from Section 
 \@ref(Gaus-mix-ex) how the complete log-likelihood looks, and the E-step
 becomes a matter of computing 
 $$p_i(\mathbf{y}) = E(1(Z_i = 1) \mid \mathbf{Y} = \mathbf{y}) = P(Z_i = 1 \mid  \mathbf{Y} = \mathbf{y}).$$
